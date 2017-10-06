@@ -1,0 +1,72 @@
+header {
+  margin-bottom: 30px; }
+
+footer {
+  text-align: center;
+  padding-top: 5px;
+  font-size: 18px;
+  margin-top: 30px; }
+
+header, footer {
+  background-color: #381F0B;
+  color: #eeeeee;
+  height: 50px;
+  width: 100%;
+  line-height: 50px; }
+
+table caption {
+  font-size: 25px;
+  font-weight: 300;
+  background-color: #381F0B;
+  color: #eeeeee;
+  text-align: center; }
+
+table tr td {
+  color: #333;
+
+
+
+
+}
+table tr .center{
+	text-align: center;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9; }
+
+table tr:nth-child(odd) {
+  background-color: #f0f0f0; }
+
+table tr th {
+    background-color: #f9f9f9; 
+  color: #336033 ;
+  font-size: 22px; 
+  font-weight: bold;
+  padding: 8px;
+	    
+
+}
+
+table tr th.center{
+	cursor: pointer;
+}
+table tr th.center.sorted{
+	cursor: default;
+}
+table thead tr th.sorted:after {
+ content: ' \25bc';
+  font-size: 14px;
+ 
+}
+table tr td {
+	 padding: 8px;
+	 font-size: 20px; 
+	  font-weight: bold;
+}
+table tr td img{
+	width: 40px;
+	margin-right: 5px;
+}
+
+/*# sourceMappingURL=App.css.map */
